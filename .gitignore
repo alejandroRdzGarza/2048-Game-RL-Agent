@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore all files in the model directory
+model/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.history/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment files
+.env
+.DS_Store
+
